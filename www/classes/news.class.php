@@ -15,11 +15,8 @@ class News {
         echo '<hr>';
         $this->getDescription($this->textNews);
         echo "$this->dataCreateNews<br>";
-        echo '<hr>';
         echo "$this->titleNews<br>";
-        echo '<hr>';
         echo "$this->descriptionNews<br>";
-        echo '<hr>';
         echo "$this->textNews";
         echo '<hr>';
     }
